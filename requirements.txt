@@ -1,0 +1,6 @@
+flask
+flask-cors
+flask-swagger
+swagger_ui_bundle
+gunicorn
+pyyaml

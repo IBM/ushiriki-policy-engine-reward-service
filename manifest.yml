@@ -1,0 +1,5 @@
+applications:
+- name: reward-service
+  instances: 2
+  memory: 2048M
+  buildpack: python_buildpack
