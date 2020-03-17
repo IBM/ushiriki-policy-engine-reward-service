@@ -18,3 +18,14 @@ Ensure that all the required modules are included into the base version of requi
 Selecting the appropriate configuration file defining the environment you'd like to host..
 
 ```PORT=8080 python webservice.py config.yaml```
+
+## Citation
+[Environment Reward Service]
+```lisp
+@misc{pending,
+  Author = {Sekou L Remy and Oliver E Bent},
+  Title = {A Global Health Gym Environment for RL Applications},
+  Year = {2020},
+  Eprint = {arXiv:pending},
+}
+```
