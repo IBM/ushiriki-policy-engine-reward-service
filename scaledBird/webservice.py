@@ -84,7 +84,7 @@ def evaluate():
         else:
             raise ValueError('invalid state %s'%data['state'])
         
-        response={"statusCode":202, "data": [str(reward), 0]}
+        response={"statusCode":202, "data": str(reward)}
         if hasattr(request.headers,'userID'):
             print("userID: ",request.headers['userID'], response)
         else:
