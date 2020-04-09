@@ -29,7 +29,7 @@ from pathlib import Path
 
 base_path = Path(__file__).parent
 
-api = Blueprint('neurips19', __name__)
+api = Blueprint('sample', __name__)
 
 import logging
 log = logging.getLogger('werkzeug')
